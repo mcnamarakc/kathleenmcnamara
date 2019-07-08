@@ -12,7 +12,7 @@ header video {
   top: 50%;
   left: 50%;
   min-width: 100%;
-  min-height: 50%;
+  min-height: 100%;
   width: auto;
   height: auto;
   z-index: 0;
@@ -33,16 +33,17 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: transparent;
   opacity: 0.5;
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
+
+/* @media (pointer: coarse) and (hover: none) {
   header {
     background: url('http://i64.tinypic.com/ivvf2p.png') rgb(80, 79, 79) no-repeat center center scroll;
   }
   header video {
     display: none;
   }
-}
+} */
