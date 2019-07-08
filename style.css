@@ -11,6 +11,14 @@ header {
   overflow: hidden;
 }
 
+/* .toggleDisplayFire {
+   
+} */
+
+.toggleDisplaySmoke {
+    display: hidden;
+}
+
 header video {
   position: absolute;
   top: 50%;
