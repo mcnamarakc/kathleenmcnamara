@@ -49,7 +49,7 @@ header .overlay {
 }
 
 video .toggleDisplaySmoke {
-    display: none;
+   visibility: hidden;;
 }
 
 .display-3 {
