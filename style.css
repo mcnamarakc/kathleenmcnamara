@@ -15,9 +15,7 @@ header {
    
 } */
 
-video .toggleDisplaySmoke {
-    display: none;
-}
+
 
 header video {
   position: absolute;
@@ -48,6 +46,10 @@ header .overlay {
   background-color: transparent;
   opacity: 0.5;
   z-index: 1;
+}
+
+video .toggleDisplaySmoke {
+    display: none;
 }
 
 .display-3 {
