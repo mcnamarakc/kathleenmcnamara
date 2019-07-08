@@ -48,8 +48,8 @@ header .overlay {
   z-index: 1;
 }
 
-video .toggleDisplaySmoke {
-   visibility: hidden;;
+video .toggleDisplaySmoke source {
+   visibility: hidden;
 }
 
 .display-3 {
