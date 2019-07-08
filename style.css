@@ -16,7 +16,7 @@ header {
 } */
 
 video .toggleDisplaySmoke {
-    display: hidden;
+    display: none;
 }
 
 header video {
