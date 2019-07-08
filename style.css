@@ -1,3 +1,6 @@
+body {
+   background-color: #343a40;
+}
 header {
   position: relative;
   background-color: black;
@@ -42,6 +45,41 @@ header .overlay {
     font-family: 'Poppins', sans-serif;
 }
 
+button {
+    border-radius: .25rem;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.534);
+    
+}
+
+
+button a:link {
+    color: #668586;
+  }
+  
+  /* visited link */
+ button  a:visited {
+    color: #A7ACD9;
+  }
+  
+  /* mouse over link */
+  button a:hover {
+    color: #93C6D6;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  button a:active {
+    color: #133C55;
+  }
+
+  section p {
+      color: white;
+  }
 /* @media (pointer: coarse) and (hover: none) {
   header {
     background: url('http://i64.tinypic.com/ivvf2p.png') rgb(80, 79, 79) no-repeat center center scroll;
