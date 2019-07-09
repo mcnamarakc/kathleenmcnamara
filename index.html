@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f5e984b01.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="icon" type="image/png" href="Content/fire-32.ico" sizes="32x32" />
 </head>
 
@@ -25,10 +26,10 @@
     </nav>
     <header>
         <div class="overlay"></div>
-        <video style="visibility: visible" class="toggleDisplayFire" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <video style="display: none" id="toggleDisplayFire" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <source src="http://vid.ly/1s7j1g" type="video/mp4">
         </video>
-        <video style="visibility: hidden" class="toggleDisplaySmoke" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <video style="display: none" id="toggleDisplaySmoke" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                 <source src="http://vid.ly/9j1o3w" type="video/mp4">
         </video>
         <div class="container h-100">
@@ -36,6 +37,11 @@
                 <div class="w-100 text-white">
                     <h1 class="display-3">Kathleen McNamara</h1>
                     <p class="lead mb-0">Front-End Javascript Developer</p>
+                    <br>
+                    <div>
+                        <button id="airBtn"><img src="Content/kissclipart-wind-icon-clipart-computer-icons-symbol-67ff741288d9c8e7.png"></button>
+                        <button style="display: none" id="fireBtn"><img src="Content/kisspng-ring-of-fire-circle-clip-art-patterns-of-fire-5a9a8381f403a8.8892203415200756499995.png"></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,7 +77,13 @@
             </div>
         </div>
     </section>
-
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#toggleDisplayFire').show();
+            // $('#airBtn').show();
+        });
+        $('#airBtn img').addClass("load");
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -81,6 +93,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>

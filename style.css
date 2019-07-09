@@ -66,6 +66,37 @@ button {
     border-color: #6c757d;
 }
 
+#fireBtn {
+    background: transparent;
+    border-color: transparent;    
+}
+
+#fireBtn img {
+    height: 5rem;
+}
+
+#airBtn {
+    background: transparent;
+    border-color: lightgray;
+    
+}
+#airBtn img {
+    height: 5rem;
+    opacity: 0;
+    text-align: center;
+    
+
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+}
+
+#airBtn img.load {
+    opacity: 1;
+}
+
 button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.534);
     
