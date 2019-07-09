@@ -17,6 +17,10 @@ header {
    
 } */
 
+.colourChange {
+    color: white;
+}
+
 
 
 header video {
@@ -170,3 +174,57 @@ button a:link {
     border-radius: 50%;
     animation: shadow-pulse-air 3s infinite;
   }
+
+.colourChange h1.fire {
+    background: linear-gradient(344deg, #520000, #990d35, #d52941, #f2a359, #fcd581);
+    background-size: 100% 1000%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: Fire 5s ease infinite;
+    -moz-animation: Fire 5s ease infinite;
+    animation: Fire 5s ease infinite;
+}
+
+@-webkit-keyframes Fire {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@-moz-keyframes Fire {
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+}
+@keyframes Fire { 
+    0%{background-position:0% 81%}
+    50%{background-position:100% 20%}
+    100%{background-position:0% 81%}
+
+}
+
+.colourChange h1.air {
+    background: linear-gradient(270deg, #668586, #82aeb1, #93c6d6, #a7acd9, #c9c9ee);
+    background-size: 1000% 1000%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: air 30s ease infinite;
+    -moz-animation: air 30s ease infinite;
+    animation: air 30s ease infinite;
+}
+
+@-webkit-keyframes air {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes air {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes air { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+
+}

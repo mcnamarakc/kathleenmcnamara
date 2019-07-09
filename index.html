@@ -34,7 +34,7 @@
         </video>
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 text-white">
+                <div class="w-100 colourChange" >
                     <h1 class="display-3">Kathleen McNamara</h1>
                     <p class="lead mb-0">Front-End Javascript Developer</p>
                     <br>
@@ -90,7 +90,9 @@
             $('#airBtn').hide();
             $('#fireBtn').show();
             $('#fireBtn img').addClass("load");
+            $('.colourChange h1').addClass("air");
             $('#airBtn img').removeClass("load");
+            $('.colourChange h1').removeClass("fire");
         });
         $('#fireBtn').click(function(){
             $('#toggleDisplaySmoke').hide();
@@ -98,7 +100,9 @@
             $('#fireBtn').hide();
             $('#airBtn').show();
             $('#airBtn img').addClass("load");
+            $('.colourChange h1').addClass("fire");
             $('#fireBtn img').removeClass("load");
+            $('.colourChange h1').removeClass("air");
         });
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
