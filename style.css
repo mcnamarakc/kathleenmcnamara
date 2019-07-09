@@ -13,6 +13,10 @@ header {
   overflow: hidden;
 }
 
+.display-3 {
+    font-size: 3rem!important;
+    padding-top: 4px;
+}
 /* .toggleDisplayFire {
    
 } */
@@ -112,6 +116,21 @@ button {
             transition: opacity 2s ease-in;
 }
 
+#exploreBtn a {
+    text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 2rem;
+    opacity: 0;
+    
+    
+
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+}
+
 #airBtn img.load {
     opacity: 1;
 }
@@ -120,18 +139,18 @@ button {
     opacity: 1;
 }
 
+#exploreBtn a.load {
+    opacity: 1;
+}
+
 .mb-0 {
     text-align: center!important;
 }
 
-#exploreBtn {
-    text-align: center;
-    font-family: 'Mountains of Christmas', cursive;
-    font-size: 2rem;
-}
+
 
 .colourChange h1 {
-    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Homemade Apple', cursive;
 }
 
 /* button:hover {

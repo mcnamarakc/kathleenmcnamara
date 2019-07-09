@@ -14,6 +14,7 @@
     <script src="https://kit.fontawesome.com/0f5e984b01.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="Content/fire-32.ico" sizes="32x32" />
 </head>
 
@@ -79,7 +80,7 @@
                             for performance artists. In my professional life, I took the leap towards tech and found a
                             field that allows me to build, grow and learn constantly. </p> -->
                         <p class="mb-0">
-                            <button id="exploreBtn" type="button"><a href="projects.html">Explore.</a></button>
+                            <button style="display: none" id="exploreBtn" type="button"><a href="projects.html">Explore.</a></button>
                         </p>
                 </div>
             </div>
@@ -98,6 +99,8 @@
             $('#airBtn').hide();
             $('#fireBtn').show();
             $('#fireBtn img').addClass("load");
+            $('#exploreBtn').show();
+            $('#exploreBtn a').addClass("load");
             $('.colourChange h1').addClass("air");
             $('#airBtn img').removeClass("load");
             $('.colourChange h1').removeClass("fire");
