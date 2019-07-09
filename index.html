@@ -38,7 +38,7 @@
                     <h1 class="display-3">Kathleen McNamara</h1>
                     <p class="lead mb-0">Front-End Javascript Developer</p>
                     <br>
-                    <div>
+                    <div id="elementBtnWrapper">
                         <button id="airBtn"><img src="Content/kissclipart-wind-icon-clipart-computer-icons-symbol-67ff741288d9c8e7.png"></button>
                         <button style="display: none" id="fireBtn"><img src="Content/kisspng-ring-of-fire-circle-clip-art-patterns-of-fire-5a9a8381f403a8.8892203415200756499995.png"></button>
                     </div>
@@ -82,7 +82,22 @@
             $('#toggleDisplayFire').show();
             // $('#airBtn').show();
         });
+
         $('#airBtn img').addClass("load");
+        $('#airBtn').click(function(){
+            $('#toggleDisplayFire').hide();
+            $('#toggleDisplaySmoke').show();
+            $('#airBtn').hide();
+            $('#fireBtn').show();
+            $('#fireBtn img').addClass("load");
+        });
+        $('#fireBtn').click(function(){
+            $('#toggleDisplaySmoke').hide();
+            $('#toggleDisplayFire').show();
+            $('#fireBtn').hide();
+            $('#airBtn').show();
+            $('#airBtn img').addClass("load");
+        });
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

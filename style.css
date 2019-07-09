@@ -73,9 +73,6 @@ button {
     border-color: transparent;    
 }
 
-#fireBtn img {
-    height: 5rem;
-}
 
 #airBtn {
     background: transparent;
@@ -95,7 +92,24 @@ button {
             transition: opacity 2s ease-in;
 }
 
+#fireBtn img {
+    height: 5rem;
+    opacity: 0;
+    text-align: center;
+    
+
+    -webkit-transition: opacity 2s ease-in;
+       -moz-transition: opacity 2s ease-in;
+        -ms-transition: opacity 2s ease-in;
+         -o-transition: opacity 2s ease-in;
+            transition: opacity 2s ease-in;
+}
+
 #airBtn img.load {
+    opacity: 1;
+}
+
+#fireBtn img.load {
     opacity: 1;
 }
 
@@ -130,13 +144,11 @@ button a:link {
   }
   
 
-  .elementBtnWrapper
-  { 
+  .elementBtnWrapper { 
     padding: 20px;     
   } 
   
-  @keyframes shadow-pulse
-  {
+  @keyframes shadow-pulse-air {
     0% {
       box-shadow: 0 0 0 0px rgba(147, 198, 214, 0.2);
     }
@@ -145,10 +157,16 @@ button a:link {
     }
   }
  
-  #airBtn
-  {
+  #airBtn {
     text-align: center;
     /* background: rgba(30, 144, 255, 0.6); */
     border-radius: 50%;
-    animation: shadow-pulse 3s infinite;
+    animation: shadow-pulse-air 3s infinite;
+  }
+
+  #fireBtn {
+    text-align: center;
+    /* background: rgba(30, 144, 255, 0.6); */
+    border-radius: 50%;
+    animation: shadow-pulse-air 3s infinite;
   }
