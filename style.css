@@ -100,8 +100,7 @@ button {
 }
 
 #fireBtn img {
-    margin-bottom: 1rem;
-    height: 4rem;
+    height: 5rem;
     opacity: 0;
     text-align: center;
     
@@ -127,6 +126,12 @@ button {
 
 #exploreBtn {
     text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 2rem;
+}
+
+.colourChange h1 {
+    font-family: 'Mountains of Christmas', cursive;
 }
 
 /* button:hover {
