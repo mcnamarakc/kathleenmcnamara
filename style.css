@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+
 body {
    background-color: #343a40;
    font-weight: 200;
@@ -77,7 +79,7 @@ button {
 
 #airBtn {
     background: transparent;
-    border-color: lightgray;
+    border-color: transparent;
     
 }
 #airBtn img {
@@ -126,11 +128,27 @@ button a:link {
   section {
       color: white;
   }
-/* @media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('http://i64.tinypic.com/ivvf2p.png') rgb(80, 79, 79) no-repeat center center scroll;
+  
+
+  .elementBtnWrapper
+  { 
+    padding: 20px;     
+  } 
+  
+  @keyframes shadow-pulse
+  {
+    0% {
+      box-shadow: 0 0 0 0px rgba(147, 198, 214, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 35px rgba(147, 198, 214, 0);
+    }
   }
-  header video {
-    display: none;
+ 
+  #airBtn
+  {
+    text-align: center;
+    /* background: rgba(30, 144, 255, 0.6); */
+    border-radius: 50%;
+    animation: shadow-pulse 3s infinite;
   }
-} */
