@@ -40,7 +40,7 @@
                     <br>
                     <div id="elementBtnWrapper">
                         <button id="airBtn"><img src="Content/kissclipart-wind-icon-clipart-computer-icons-symbol-67ff741288d9c8e7.png"></button>
-                        <button style="display: none" id="fireBtn"><img src="Content/kisspng-ring-of-fire-circle-clip-art-patterns-of-fire-5a9a8381f403a8.8892203415200756499995.png"></button>
+                        <button style="display: none" id="fireBtn"><img src="Content/fireColorFinal.png"></button>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                             for performance artists. In my professional life, I took the leap towards tech and found a
                             field that allows me to build, grow and learn constantly. </p>
                         <p class="mb-0">
-                            <button type="button"><a href="projects.html">Explore more.</a></button>
+                            <button id="exploreBtn" type="button"><a href="projects.html">Explore more.</a></button>
                         </p>
                 </div>
             </div>
@@ -93,6 +93,7 @@
             $('.colourChange h1').addClass("air");
             $('#airBtn img').removeClass("load");
             $('.colourChange h1').removeClass("fire");
+           
         });
         $('#fireBtn').click(function(){
             $('#toggleDisplaySmoke').hide();
@@ -103,6 +104,7 @@
             $('.colourChange h1').addClass("fire");
             $('#fireBtn img').removeClass("load");
             $('.colourChange h1').removeClass("air");
+            
         });
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

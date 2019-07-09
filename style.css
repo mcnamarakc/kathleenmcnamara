@@ -117,6 +117,14 @@ button {
     opacity: 1;
 }
 
+.mb-0 {
+    text-align: center!important;
+}
+
+#exploreBtn {
+    text-align: center;
+}
+
 button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.534);
     
@@ -184,6 +192,7 @@ button a:link {
     -moz-animation: Fire 5s ease infinite;
     animation: Fire 5s ease infinite;
 }
+
 
 @-webkit-keyframes Fire {
     0%{background-position:0% 81%}
