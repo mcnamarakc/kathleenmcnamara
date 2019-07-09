@@ -47,10 +47,14 @@ header .overlay {
   opacity: 0.5;
   z-index: 1;
 }
+/* 
+video .toggleDisplayFire {
+    visibility: visible
+}
 
 video .toggleDisplaySmoke {
    visibility: hidden;
-}
+} */
 
 .display-3 {
     font-family: 'Poppins', sans-serif;
