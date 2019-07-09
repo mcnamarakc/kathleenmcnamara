@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
 
 body {
-   background-color: #343a40;
+   background-color: #212529;
    font-weight: 200;
 }
 header {
@@ -215,13 +215,13 @@ button a:link {
 }
 
 .colourChange h1.air {
-    background: linear-gradient(270deg, #668586, #82aeb1, #93c6d6, #a7acd9, #c9c9ee);
+    background: linear-gradient(270deg, #1C3738, #668586, #93c6d6, #a7acd9, #7E52A0);
     background-size: 1000% 1000%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-animation: air 30s ease infinite;
-    -moz-animation: air 30s ease infinite;
-    animation: air 30s ease infinite;
+    -webkit-animation: air 5s ease infinite;
+    -moz-animation: air 8s ease infinite;
+    animation: air 8s ease infinite;
 }
 
 @-webkit-keyframes air {
