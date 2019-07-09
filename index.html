@@ -26,24 +26,26 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
+            <ul class="navbar-nav">
+                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                </li>
+            </ul>
+        </div>
     </nav>
     <header>
         <div class="overlay"></div>
-        <video style="display: none" id="toggleDisplayFire" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <video style="display: none" id="toggleDisplayFire" playsinline="playsinline" autoplay="autoplay" muted="muted"
+            loop="loop">
             <source src="http://vid.ly/7f4q4w" type="video/mp4">
         </video>
-        <video style="display: none" id="toggleDisplaySmoke" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="http://vid.ly/9j1o3w" type="video/mp4">
+        <video style="display: none" id="toggleDisplaySmoke" playsinline="playsinline" autoplay="autoplay" muted="muted"
+            loop="loop">
+            <source src="http://vid.ly/9j1o3w" type="video/mp4">
         </video>
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 colourChange" >
+                <div class="w-100 colourChange">
                     <h1 class="display-3">Kathleen McNamara</h1>
                     <p class="lead mb-0">Front-End Javascript Developer</p>
                     <br>
@@ -79,21 +81,22 @@
                             professional life. In my free time, I volunteer as a safety instructor and event producer
                             for performance artists. In my professional life, I took the leap towards tech and found a
                             field that allows me to build, grow and learn constantly. </p> -->
-                        <p class="mb-0">
-                            <button style="display: none" id="exploreBtn" type="button"><a href="projects.html">Explore.</a></button>
-                        </p>
+                    <p class="mb-0">
+                        <button style="display: none" id="exploreBtn" type="button"><a
+                                href="projects.html">Explore.</a></button>
+                    </p>
                 </div>
             </div>
         </div>
     </section>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             $('#toggleDisplayFire').show();
             // $('#airBtn').show();
         });
 
         $('#airBtn img').addClass("load");
-        $('#airBtn').click(function(){
+        $('#airBtn').click(function () {
             $('#toggleDisplayFire').hide();
             $('#toggleDisplaySmoke').show();
             $('#airBtn').hide();
@@ -104,9 +107,9 @@
             $('.colourChange h1').addClass("air");
             $('#airBtn img').removeClass("load");
             $('.colourChange h1').removeClass("fire");
-           
+
         });
-        $('#fireBtn').click(function(){
+        $('#fireBtn').click(function () {
             $('#toggleDisplaySmoke').hide();
             $('#toggleDisplayFire').show();
             $('#fireBtn').hide();
@@ -115,7 +118,7 @@
             $('.colourChange h1').addClass("fire");
             $('#fireBtn img').removeClass("load");
             $('.colourChange h1').removeClass("air");
-            
+
         });
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
