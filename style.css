@@ -268,8 +268,22 @@ button a:link {
     border-style: none;
 }
 
-@media (max-width: 425px) { 
+@media (max-width: 426px) {
+     
     .display-3 {
         font-size: 3rem!important;
     }
+    #avatarImg {
+        width: 200px;
+        height: 200px;
+     
+    }
+    .glow {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+ }
+
+ .widthControl {
+     width: 100%;
  }
