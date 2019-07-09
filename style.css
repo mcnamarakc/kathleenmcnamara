@@ -266,3 +266,8 @@ button a:link {
     border-style: none;
 }
 
+@media (max-width: 425px) { 
+    .display-3 {
+        font-size: 3rem!important;
+    }
+ }
