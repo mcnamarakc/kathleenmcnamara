@@ -71,7 +71,7 @@ video .toggleDisplaySmoke {
 }
 
 button {
-    border-radius: .25rem;
+    border-radius: 1rem;
     background-color: #6c757d;
     border-color: #6c757d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.534), 0 6px 20px 0 rgba(0, 0, 0, 0.534);
@@ -120,6 +120,7 @@ button {
     text-align: center;
     font-family: 'Mountains of Christmas', cursive;
     font-size: 2rem;
+   
     opacity: 0;
     
     
