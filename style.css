@@ -3,6 +3,8 @@
 body {
    background-color: #212529;
    font-weight: 200;
+   overflow-x: hidden;
+
 }
 header {
   position: relative;
@@ -17,9 +19,7 @@ header {
     font-size: 3rem!important;
     padding-top: 4px;
 }
-/* .toggleDisplayFire {
-   
-} */
+
 
 .colourChange {
     color: white;
@@ -223,6 +223,16 @@ button a:link {
     animation: Fire 5s ease infinite;
 }
 
+.colourChange nav.fire {
+    background: linear-gradient(344deg, #520000, #990d35, #d52941, #f2a359, #fcd581) !important;
+    background-size: 100% 1000% !important;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-animation: Fire 5s ease infinite;
+    -moz-animation: Fire 5s ease infinite;
+    animation: Fire 5s ease infinite;
+}
+
 
 @-webkit-keyframes Fire {
     0%{background-position:0% 81%}
@@ -246,6 +256,16 @@ button a:link {
     background-size: 1000% 1000%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-animation: air 5s ease infinite;
+    -moz-animation: air 8s ease infinite;
+    animation: air 8s ease infinite;
+}
+
+.colourChange nav.air {
+    background: linear-gradient(270deg, #1C3738, #668586, #93c6d6, #a7acd9, #7E52A0)!important;
+    background-size: 1000% 1000%!important;
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
     -webkit-animation: air 5s ease infinite;
     -moz-animation: air 8s ease infinite;
     animation: air 8s ease infinite;
@@ -328,4 +348,15 @@ button a:link {
  #contactSubText {
     color: white;
     font-size: 1rem;
+ }
+
+ .bioContent {
+     color: white;
+     text-align: left;
+ }
+
+ #bioPhoto {
+     width: 70%;
+     margin-bottom: 8px;
+     border-radius: 1rem;
  }
