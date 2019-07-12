@@ -358,5 +358,5 @@ button a:link {
  #bioPhoto {
      width: 70%;
      margin-bottom: 8px;
-     border-radius: 1rem;
+     /* border-radius: 1rem; */
  }
