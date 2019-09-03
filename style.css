@@ -324,10 +324,10 @@ button a:link {
         height: 200px;
      
     }
-    .glow {
+    /* .glow {
         overflow-x: hidden;
         overflow-y: hidden;
-    }
+    } */
  }
 
  .widthControl {
